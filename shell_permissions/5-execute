@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "-rwxrw-r--"
+ls -l ./hello | awk '{print $1}'
