@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l ./hello | awk '{print $1}'
+FILE_NAME="hello"; chmod u+x "$FILE_NAME"; ls -l "$FILE_NAME" | awk '{print $1}'
