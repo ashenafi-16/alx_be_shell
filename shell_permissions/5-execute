@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x hello
+echo -e 'chmod 764 hello' >> 5-execute
